@@ -1,0 +1,328 @@
+/******************************
+	Google fonts
+*******************************/
+/* open sans fonts link*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+/* Permanent Marker fonts link*/
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+/* house sant fonts link*/
+@font-face {
+    font-family: "House Slant";
+    src: url('font/HouseSlant.eot');
+    src: url("font/HouseSlant.eot?#iefix") format("embedded-opentype"),
+         url("font/HouseSlant.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+/******************************
+	Global css 
+*******************************/
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+body{
+	background:url(../img/background.png);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+}
+a,p,span{
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    /*font-family: "House Slant";
+    text-rendering: optimizeLegibility;
+    font-weight: normal;*/
+    font-family: 'Permanent Marker', cursive;
+}
+
+header{
+	width: 100%;
+	background:transparent;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li{
+	padding: 10px 20px;
+} 
+.navbar-light .navbar-nav .active>.nav-link{
+	font-weight: 700;
+	padding: 10px 80px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #dc2a4c !important;
+	transition: all 0.5s;
+}
+
+/******************************
+	Banner section css 
+*******************************/
+.banner{
+	width: 100%;
+    padding: 130px 0px 330px 0;
+}
+.banner col-md-6{
+
+	text-align: center;
+}
+.right-part{
+	text-align: center;
+}
+.right-part h1{
+	color: #dc2a4c;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.right-part p{
+	color: #dc2a4c;
+	padding: 20px 0;
+}
+.right-part button{
+	color: #dc2a4c !important;
+    background: #fff !important;
+    border-color: #fff;
+    height: 38px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+.btn-primary:hover{
+	color: #fff !important;
+	border-color: #dc2a4c !important;
+	background: #dc2a4c !important;
+	transition: all 0.5s;
+}
+/******************************
+	About section css 
+*******************************/
+
+.about{
+	width: 100%;
+    padding: 200px 0 200px 0px;
+}
+.about .col-md-12{
+	text-align: center;
+}
+.about h1{
+	color: #dc2a4c;
+	font-size: 50px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+}
+.about p{
+	color: #dc2a4c;
+}
+.about button{
+	margin-top: 20px;
+	color: #fff !important;
+    background: #dc2a4c !important;
+    border-color: #dc2a4c;
+    height: 46px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 23px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.btn-primary:hover{
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+}
+
+/******************************
+	Theme Gallery section css 
+*******************************/
+.theme-gallery{
+	width: 100%;
+    padding: 350px 0px 200px 0px;
+}
+.theme-gallery .theme-content{
+	margin: 0 20px;
+}
+.theme-gallery .theme-content h2{
+	margin: 20px 0px;
+	color: #dc2a4c;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.theme-gallery .theme-content p{
+	color: #dc2a4c;
+	font-size: 12px;
+	margin:20px 0px; 
+}
+.theme-gallery .theme-content button{
+	color: #dc2a4c !important;
+    background: #fff !important;
+    border-color: #fff;
+    height: 38px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+.theme-gallery .theme-content button:hover{
+	color: #fff !important;
+	border-color: #dc2a4c !important;
+	background: #dc2a4c !important;
+	transition: all 0.5s;
+}
+
+.theme-gallery .row{
+	position: relative;
+}
+.theme-gallery .one{
+	position: absolute;
+    overflow: hidden;
+    left: 0%;
+}
+.theme-gallery .two{
+	position: absolute;
+    overflow: hidden;
+    left: 33%;
+    top: 70px;
+}
+.theme-gallery .three{
+	position: absolute;
+    overflow: hidden;
+    right: 0%;
+}
+
+.theme-gallery .two-two{
+	position: absolute;
+    overflow: hidden;
+    left: 33%;
+    top: -70px;
+}
+/******************************
+	Product Gallery section css 
+*******************************/
+.product-gallery{
+	width: 100%;
+	padding: 740px 0px 172px 0px;
+}
+.product-gallery .why-us{
+	margin: 80px 20px 0px 20px; 
+}
+.product-gallery .col-md-12{
+	text-align: center;
+}
+.product-gallery h1{
+	color: #dc2a4c;
+	font-size: 50px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+}
+.product-gallery p{
+	color: #dc2a4c;
+}
+.product-gallery button{
+	margin-top: 20px;
+	color: #fff !important;
+    background: #dc2a4c !important;
+    border-color: #dc2a4c;
+    height: 46px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 23px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.product-gallery .btn-primary:hover{
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+}
+/******************************
+	Enoy Summer section css 
+*******************************/
+.summer{
+	width: 100%;
+	padding: 83px 0px;
+}
+.summer .enjoy{
+	margin: 0px 20px;
+}
+.summer h2{
+	color: #dc2a4c;
+	font-size: 40px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+}
+.summer p{
+	color: #dc2a4c;
+}
+
+/* space start*/
+.space-one{
+	padding: 450px 0;
+}
+/*space end*/
+
+/******************************
+	Footer section css 
+*******************************/
+
+.space-two{
+	padding: 330px 0;
+}
+footer{
+	width: 100%;
+	padding: 120px 0px 30px 0px; 
+}
+footer .footer-left{
+	padding: 12px 60px;
+}
+footer .footer-left h5, footer .footer-middle h5{
+	color: #dc2a4c;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+footer .footer-left p{
+	color: #dc2a4c;
+	margin: 0;
+}
+footer .footer-middle span{
+	font-size: 16px;
+	color: #dc2a4c;
+	font-weight: 600;
+	padding-left: 10px;
+}
+footer .footer-right ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 5px;
+}
+footer .footer-right ul li a{
+	text-decoration: none;
+}
+footer .footer-right ul li a i{
+	font-size: 20px;
+    height: 34px;
+    width: 34px;
+    border: 1px solid red;
+    border-radius: 50px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    background: #dc2a4c;
+    border-color: #dc2a4c;
+}
+footer .footer-right ul li a i:hover{
+	transform: scale(1.2);
+	transition: 0.4s ease-in-out;
+}
+
+footer .col-md-4{
+	display: flex;
+	align-items: flex-end;
+}
